@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4de7eb33-c498-4145-92da-79d7db742c10" name="Changes" comment="added readmes" />
+    <list default="true" id="4de7eb33-c498-4145-92da-79d7db742c10" name="Changes" comment="finished frontend">
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/sendMed.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/FormType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/bwh-building-promo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MedicalForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/ListPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/MedicalRequestPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +30,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -27,31 +51,38 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2bptQeQXOHU8VSewWpr5rSiw0aH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/mikew/WebstormProjects/hw3-starter-code/common",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.backend.executor": "Run",
-    "npm.frontend.executor": "Run",
-    "npm.install.executor": "Run",
-    "ts.external.directory.path": "C:\\Users\\danga\\OneDrive\\Desktop\\WPI\\Computer Science\\CS 3733\\Individual Assignment\\ASM 3\\common\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Basic-Components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mikew/WebstormProjects/hw3-starter-code/common&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.backend.executor&quot;: &quot;Run&quot;,
+    &quot;npm.frontend.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\danga\\OneDrive\\Desktop\\WPI\\Computer Science\\CS 3733\\Individual Assignment\\ASM 3\\common\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mikew\WebstormProjects\hw3-starter-code\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danga\OneDrive\Desktop\WPI\Computer Science\CS 3733\Individual Assignment\ASM 3\frontend\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="Compound.start">
@@ -71,7 +102,9 @@
       <updated>1706923832394</updated>
       <workItem from="1706923833450" duration="2332000" />
       <workItem from="1706926440785" duration="1359000" />
-      <workItem from="1707548149595" duration="463000" />
+      <workItem from="1707548149595" duration="767000" />
+      <workItem from="1707578450453" duration="4868000" />
+      <workItem from="1707584890878" duration="14653000" />
     </task>
     <task id="LOCAL-00001" summary="added readmes">
       <option name="closed" value="true" />
@@ -88,7 +121,9 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added readmes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added readmes" />
+    <MESSAGE value="finished frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished frontend" />
   </component>
 </project>
